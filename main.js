@@ -12,7 +12,6 @@ function initApp() {
     render('the beatles')
 }
 
-
 function searchPressed() {
     event.preventDefault()
     searchValue = event.target.querySelector('input').value
